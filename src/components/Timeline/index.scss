@@ -1,0 +1,70 @@
+// Timeline.scss
+.timeline {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 30px 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    overflow-x: auto; // Added this to enable horizontal scrolling
+    overflow-y: hidden; // Added this to prevent vertical scrolling
+    font-family: 'coolvetica';
+  }
+  
+  .timeline-item {
+    position: relative;
+    padding-left: 37px;
+    padding-bottom: 50px;
+  
+    &:last-child {
+      padding-bottom: 0;
+    }
+  
+    &::before {
+      content: '';
+      width: 1px;
+      position: absolute;
+      height: 100%;
+      left: 7px;
+      top: 0;
+      background-color: #333;
+    }
+  }
+  
+  .circle-dot {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #000;
+  }
+  
+  .timeline-date {
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: #000; // Changed this to black for better visibility
+  }
+  
+  .timeline-title {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    color: #000; // Changed this to black for better visibility
+  }
+  
+  .timeline-text {
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+    color: #000; // Changed this to black for better visibility
+  }
+  
+  .education-heading{
+    font-weight: 900;
+    font-size: 25px;
+    color: #ffd700;
+  }

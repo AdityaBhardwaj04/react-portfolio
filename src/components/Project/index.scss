@@ -1,0 +1,54 @@
+.container {
+  margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh; // Adjust this based on your layout
+    margin-left: -10px;
+  }
+  
+  .portfolio-page {
+    width: 100%;
+    display: flex;
+    margin-left: -20%;
+    flex-direction: column;
+  }
+  
+  .portfolio-container {
+    width: 100%;
+    height: 65%;
+    margin-left: 50%;// Translucent white background // Blurry background
+     // Rounded corners
+    overflow: hidden; // Ensures the content doesn't spill out of the rounded corners
+    transition: all 5s ease-in-out; // Change every 5 seconds
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .project-item {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: all 5s ease-in-out; // Change every 5 seconds
+  
+    text-align: center; // Center the text horizontally
+    font-size: 1em; // Adjust this based on your needs
+  }
+  
+  h1{
+    color: #fff;
+    font-size: 45px; // Adjust this based on your needs
+  }
+
+  
+  .port-hero{
+    padding-left: 10%;
+    display: flex;
+    width: 60%;
+  }
+
+  .carousel-container{
+    width: 25%;
+  }
